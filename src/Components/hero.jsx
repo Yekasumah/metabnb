@@ -1,5 +1,5 @@
 import React from "react";
-import Side from '../assets/Side.png'
+import Side from '../assets/side.png'
 
 function Hero (){
      return(

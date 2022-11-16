@@ -1,7 +1,9 @@
-import React from "react";
-import Logo from '../assets/logo.png'
+import React, {useState} from "react";
+import Logo from '../assets/logo.png';
+import Modal from '../Components/modal'
 
 function Header (){
+  const [openModal, setOpenModal] = useState(false);
      return(
         <div className="Header">
           <img src={Logo}/>
@@ -13,8 +15,15 @@ function Header (){
                 <a href='' >Community</a>
             </ul>
           </nav>
-          <button className="btn_1">Connect wallet</button>
+          <button onClick={() => setOpenModal(true)} className="btn_1">Connect wallet</button>
+          <Modal 
+      open={openModal} 
+      onClose={() => setOpenModal(false)} />
         </div>
      )
 }
 export default Header;
+
+
+
+   

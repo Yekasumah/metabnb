@@ -9,8 +9,8 @@ function Footer (){
         <div className="Footer">
             <div className="logo1">
              <img src={Mt}/>
-             <img src={Socialicon}/>
-             <img src={Copyright}/>
+             <img className="social" src={Socialicon}/>
+             <img className="social" src={Copyright}/>
             </div>
             <div className="logo">
                 <h2>Community</h2>

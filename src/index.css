@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&family=sora:wght@600&display=swap');
 
 
 .Header{
@@ -28,7 +28,7 @@ gap: 48px;
 
 a{
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 25px;
   color:black;
   font-family: 'Red Rose';
   font-style: normal;
@@ -53,6 +53,9 @@ a{
  line-height: 20px;
 }
 
+.img_ img{
+  width: 22rem;
+}
 .hero, .section_{
   display: flex;
   flex-direction: row;
@@ -66,9 +69,9 @@ a{
 
 .section_{
   background: #A02279;
-  margin-top: 10rem;
+  margin-top: 20rem;
   width: 1440px;
-  margin-left: -20px;
+  margin-left: -5rem;
   padding-right: 13px;
   padding-bottom: 5rem;
   font-family: 'Red Rose';
@@ -87,6 +90,7 @@ a{
 #grid img{
   max-width: 100%;
   margin-top: 6rem;
+  width: 28rem;
 }
 
 #h1_{
@@ -124,7 +128,7 @@ background-clip: text;
 .rent_{
   display:flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-left: 18px;
 }
 
 .sect_{
@@ -196,13 +200,14 @@ h1 span{
 flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 264px;
+gap: 200px;
 
 position: absolute;
-width: 1440px;
+width: 1390px;
 height: 70px;
 left: 0px;
 top: 742px;
+
 
 /* MAJOR */
 
@@ -239,7 +244,7 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   margin-left: -10px;
   gap: 99px;
   background: black;
-  width: 1440px;
+  width: 1380px;
   padding-right: 5px;
 }
 
@@ -250,7 +255,7 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   align-items: flex-start;
   padding: 0px;
   margin-right: 5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: 'Red Rose';
 }
 
@@ -282,7 +287,10 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   z-index: -1;
   padding: 12px 24px;
 }
-
+ 
+.logo1 .social{
+  width: 8rem;
+}
 
 /* Modal */
 .overlay {
@@ -306,23 +314,28 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   background-color: #ffffff;
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
+  flex-direction: row;
 }
 
-img {
-  width: 250px;
-  object-fit: cover;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+.modalContainer h1{
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
 }
+
 
 .modalRight {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 
-.closeBtn {
-  position: fixed;
-  top: 8px;
-  right: 8px;
+.closeBtn{
+  padding-left: 10rem;
 }
 
 .content {
@@ -334,33 +347,76 @@ img {
   padding: 1rem 2rem;
 }
 
-.btnContainer {
-  display: flex;
-  padding: 1rem 1rem;
-}
-.btnContainer button {
-  width: 100%;
-  margin: .5rem;
-  padding: 16px 0;
-  /* border: none; */
-  border: 1px solid #411b57;
-  /* color: #ffffff; */
-}
 
-.btnPrimary {
-  background-color: #411b57;
-  color: white;
-}
-
-.btnOutline {
-  /* background-color: #a76a99; */
-  background-color: white;
-  color: #411b57;
-}
 
 .bold {
   font-weight: 600;
 }
+
+.connect_{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.connect_ h1{
+  font-size: 24px;
+  padding-right: -20px;
+}
+
+.connect_ p{
+  margin-left: -17rem;
+  margin-bottom: 2.6rem;
+  font-size: 18px;
+
+}
+
+.btn_connect button{
+  border: 0px solid transparent;
+  background: transparent;
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;/* identical to box height */
+padding-left: -10rem;
+color: #000000;
+}
+
+#btn_modal{
+  padding-left: 15rem;
+}
+#btn_modal1{
+  padding-left: 15rem;
+}
+.btn_connect{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 50px;
+  
+  /* DTC Light Gray (BG) */
+  
+  background: #F8F9FA;
+  /* DTC Mid Gray */
+  
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
 
 @media screen and (max-width: 500px) {
   .modalContainer {

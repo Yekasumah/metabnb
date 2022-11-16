@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from '../assets/logo.png';
 import Side from '../assets/Side.png'
 
 function Hero (){

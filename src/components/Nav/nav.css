@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+
+.main{
+    width: 100%;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+}
+#contact{
+    font-family: 'Red Rose';
+    margin-left: 40px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #A22092;
+}
+.connect{
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #A22092;
+    background-color: #A22092;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Red Rose';
+    cursor: pointer;
+}
+.connect a{
+  color: #fff;
+}
+.connect.con{
+    padding: 10px 20px;
+}
+.connect:hover{
+    background-color: #600654;
+    color: #fff;
+}
+.connect:active{
+    transform: scale(0.98);
+  }
+  .menu .hamburger {
+    font-size: 25px;
+    color: #a02279;
+    cursor: pointer;
+    display: none;
+  }
+  .modal {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 2px 3px 58px -13px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 20px 30px;
+    line-height: 30px;
+  }
+  .modal ul{
+      list-style-type: none;
+      padding: 0px;
+      font-weight: 600;
+  }
+  .modal li{
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #434343;
+        margin-bottom: 15px;
+        text-decoration: none;
+  }
+  .modal ul li:hover{
+    color: #a02279;
+  }
+  .community {
+    font-weight: 800;
+    color: #a02279;
+  }
+  .community:hover{
+    color: #42032e;
+  }
+  .popup {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4040404d;
+    z-index: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .collect-wallet-modal{
+    background-color: white;
+    width: 40%;
+    border-radius: 16px;
+  }
+  .item1 {
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(77, 77, 77, 0.164);
+  }
+  .item1 p{
+          font-family: "Red Rose";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          color: #333333;
+  }
+  .item1 .close {
+    cursor: pointer;
+  }
+  .wallet-body {
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wallet-body p{
+        font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+  }
+  .wallet1 {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: #f8f9fa;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+  }
+  .wallet1 .wallet1-item1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .wallet-item1 img {
+    margin-right: 10px;
+  }
+  .wallt1-arrow {
+    color: #959da6;
+  }
+
+  @media screen and (max-width: 940px) {
+    .order{
+        display: none;
+    }
+    .connect{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+        margin-top: 5px;
+    }
+    .menu .hamburger{
+        display: block;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    #contact{
+      margin-left: 24px;
+    }
+    .logo{
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 793px) {
+    .collect-wallet-modal {
+        width: 80% !important;
+      }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .logo{
+        width: 35%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo{
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .logo{
+        width: 60%;
+    }
+  }
+

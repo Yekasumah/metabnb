@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+
+footer{
+  height: 220px;
+  padding: 30px 170px 50px 100px;
+  background-color: #1D1D1E;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot-logo{
+    width: 70%;
+    margin-top: 30px;
+}
+h6{
+    font-family: 'Red Rose';
+    color: #fff;
+    margin-top: 40px;
+    font-size: 13px;
+    font-weight: 400 ;
+}
+.foot-col1{
+    font-family: 'Red Rose';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.foot-col2{
+    font-family: 'Red Rose';
+   line-height: 30px;
+   color: #F1F3F9;
+   font-weight: 400;
+   font-size: 11px;
+   margin-top: 20px;
+}
+.foot-col3{
+    font-family: 'Red Rose';
+    line-height: 30px;
+    color: #F1F3F9;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.foot-col4{
+    font-family: 'Red Rose';
+    line-height: 30px;
+    color: #F1F3F9;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.first{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+.fb-icon{
+    margin-right: 20px;
+}
+.ins-icon{
+    margin-right: 20px;
+}
+@media screen and (max-width: 760px) {
+    footer{
+        height: 220px;
+        padding: 10px 100px 60px 60px;
+      }
+      h6{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .icons{
+        margin-top: 40px;
+    }
+    .foot-col2{
+       line-height: 25px;
+       font-size: 12px;
+       margin-top: 18px;
+    }
+    .foot-col3{
+        line-height: 25px;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .foot-col4{
+        line-height: 25px;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .first{
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+}
+@media screen and (max-width: 480px){
+    footer{
+        padding: 10px 80px 550px 20px;
+      }
+      .columns{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+      }
+      .foot-logo{
+          width: 70%;
+          margin-top: 30px;
+      }
+      h6{
+          font-family: 'Red Rose';
+          color: #fff;
+          margin-top: 40px;
+          font-size: 13px;
+          font-weight: 400 ;
+      }
+    
+}
